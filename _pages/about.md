@@ -50,11 +50,12 @@ My research interest includes neural machine translation and computer vision. I 
 {% endcomment %}
 
 
-{% comment %}
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-{% endcomment %}
+- *2025.12*, **Guangdong Provincial "Climb Program" Special Research Grant** (Top 30% selection). 
+  - Project: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
+  - Awarded CN¥ 20,000 for university-level undergraduate innovation.
+- *2025.11*, **Award of Excellence (Best Poster Presentation)**, The 6th SUSTech BME Research Day.
+  - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
 
 # 📖 Educations
 - *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
@@ -71,3 +72,24 @@ My research interest includes neural machine translation and computer vision. I 
     - *Computer Vision*: Multi-View 3D Reconstruction System for EEG Electrode Localization
   - **Neural Modulation for Emotion & Cognition**:
     - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
+
+
+# 🏆 Competitions
+
+## Mathematical Modeling
+- *2025.12*, **Winning Prize**, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
+  - **Role**: Team Leader. **Topic**: *Comprehensive Evaluation and Development Analysis of Stablecoins*.
+  - Hosted by Guangdong Society for Industrial and Applied Mathematics & Guangdong-Hong Kong-Macau Center for Applied Mathematics (Sun Yat-sen University); Organized by Guangdong Association for Science and Technology.
+
+- *2025.05*, **Honorable Mention (H Award)**, Mathematical Contest in Modeling (MCM/ICM).
+  - **Role**: Solo Participant. **Topic**: *Cybersecurity Analysis Based on the Global Cybersecurity Index (GCI)*.
+
+- *2023.07*, **National Second Prize**, The 3rd China High School Mathematical Contest in Modeling.
+  - **Role**: Solo Participant. **Topic**: *Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic*.
+  - Hosted by Beijing Normal University.
+
+
+# 🤝 Social Work & Services
+- **Southern University of Science and Technology Red Cross Youth Chapter**: Certified First Aider by Shenzhen Red Cross Society. The chapter was recognized as a *National Red Cross Model Unit* by the Red Cross Society of China (2025).
+- **Mental Health First Aid (MHFA) Standard Course**: Certificate of Completion issued by The Mental Health Association of Hong Kong (authorized by MHFA International).
+- **Excellent Dormitory Manager** of Southern University of Science and Technology, Zhicheng College.
