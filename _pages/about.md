@@ -17,12 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I’m a sophomore undergraduate student in General Education at SUSTech, intending to major in EE/BME. Strong interests in neuroscience and BCI, with experience in EEG signal processing, 3D reconstruction, and deep learning.
-Currently conducting research at NCC Lab under the supervision of Associate Professor Quanying Liu. 
+Hi! I'm a sophomore undergraduate student in Engineering at Southern University of Science and Technology（SUSTech）, intending to major in EE/BME. Strong interests in neuroscience and BCI, with experience in EEG signal processing, 3D reconstruction, and deep learning. 
 
-{% comment %}
+<br>
+
+Currently conducting research at NCC Lab under the supervision of Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao).
+
+
+/* {% comment %}
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 {% endcomment %}
+*/
 
 # 🔥 News
 - *2025.11*: &nbsp;🎉🎉 Our project "Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals" reward by the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province
