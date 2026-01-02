@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I'm a sophomore undergraduate student in Engineering at Southern University of Science and Technology（SUSTech）, intending to major in EE/BME. Strong interests in neuroscience and BCI, with experience in EEG signal processing, 3D reconstruction, and deep learning. 
+Hi! I'm a sophomore undergraduate student in Engineering at Southern University of Science and Technology（SUSTech）, intending to major in EE/BME. Strong interests in neuroscience and BCI, with with goals to explore the mysteries of the brain and develop innovative brain-computer interface technologies. 
 
 <br>
 
@@ -54,12 +54,17 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.08 - Present*, Undergraduate, College of Engineering, Southern University of Science and Technology, Shenzhen
+- *2021.09 - 2024.06*, Attached Middle School to Jiangxi Normal University, Nanchang
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 🔬 Research Experience
+- *2024.09 - Present*, **Neural Computing and Control Lab (NCC Lab)**, SUSTech,
+  Supervisor: Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)
+  - **Multimodal Neural Encoding & Decoding**: 
+    - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
+    - *Auditory & Language Processing*: Foundation Model-Aligned Chinese Semantic Decoding
+    - *Multimodal Decoding*: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing
+  - **Cross-Modal BCI Systems & Intelligent Control**:
+    - *Computer Vision*: Multi-View 3D Reconstruction System for EEG Electrode Localization
+  - **Neural Modulation for Emotion & Cognition**:
+    - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
