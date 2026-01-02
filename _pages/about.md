@@ -29,7 +29,7 @@ My research interest includes neural machine translation and computer vision. I 
 {% endcomment %}
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 Our project "Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals" reward by the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province
+- *2025.12*: &nbsp;🎉🎉 Our project "Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals" reward by the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province
 
 {% comment %}
 # 📝 Publications 
@@ -51,10 +51,10 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🎖 Honors and Awards
-- *2025.12*, **Guangdong Provincial "Climb Program" Special Research Grant** (Top 30% selection). 
+- *2025.12*, **the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province(University-level Project)** . 
   - Project: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
-  - Awarded CN¥ 20,000 for university-level undergraduate innovation.
-- *2025.11*, **Award of Excellence (Best Poster Presentation)**, The 6th SUSTech BME Research Day.
+  - A undergraduate project with a grant of CN¥20,000.
+- *2025.11*, **Award of Excellence (Poster Presentation)**, The 6th SUSTech BME Research Day.
   - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
 
 # 📖 Educations
