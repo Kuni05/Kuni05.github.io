@@ -54,11 +54,11 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2024.08 - Present*, Undergraduate, College of Engineering, Southern University of Science and Technology, Shenzhen
-- *2021.09 - 2024.06*, Attached Middle School to Jiangxi Normal University, Nanchang
+- *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
+- *2021.09 - 2024.06*, High School Diploma, [Attached Middle School to Jiangxi Normal University](http://www.jxsdfz.com/), Nanchang
 
 # 🔬 Research Experience
-- *2024.09 - Present*, **Neural Computing and Control Lab (NCC Lab)**, SUSTech,
+- *2024.09 - Present*, **Neural Computing and Control Lab (NCC Lab)**, SUSTech,  
   Supervisor: Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)
   - **Multimodal Neural Encoding & Decoding**: 
     - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
