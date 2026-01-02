@@ -28,16 +28,15 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      
+      <!-- 学术邮箱 -->
+      {% if author.email_academic %}
+        <li><a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Academic Email</a></li>
       {% endif %}
-
-      <!-- 在文件约 33 行 Email 后面添加 -->
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-      {% endif %}
-      {% if author.email2 %}
-        <li><a href="mailto:{{ author.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email 2</a></li>
+      
+      <!-- 个人邮箱 -->
+      {% if author.email_personal %}
+        <li><a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i> Personal Email</a></li>
       {% endif %}
       
       {% if author.keybase %}
@@ -141,9 +140,18 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        
+      {% if author.email_academic %}
+        <a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
+      {% if author.email_personal %}
+        <a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i></a>
+      {% endif %}
+        
+      {% if author.kaggle %}
+        <a href="https://www.kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle" aria-hidden="true"></i></a>
+      {% endif %}
+        
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
