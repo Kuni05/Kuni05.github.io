@@ -9,6 +9,10 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
 
+          <li class="masthead__menu-item">
+          <a href="{{ "/" | relative_url }}#competitions">Other</a>
+          </li>
+
           <!-- 新增：CV 选项（样式与其他相同） -->
           <li class="masthead__menu-item">
             <a href="{{ "/files/CV.pdf" | relative_url }}">CV</a>
