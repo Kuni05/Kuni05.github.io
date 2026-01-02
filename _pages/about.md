@@ -74,8 +74,8 @@ My research interest includes neural machine translation and computer vision. I 
     - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
 
 
+<span class='anchor' id='competitions'></span>
 # 🏆 Competitions
-
 ## Mathematical Modeling
 - *2025.12*, **Winning Prize**, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
   - **Role**: Team Leader. **Topic**: *Comprehensive Evaluation and Development Analysis of Stablecoins*.
