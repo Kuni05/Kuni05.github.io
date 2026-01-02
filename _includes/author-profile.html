@@ -31,6 +31,15 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+
+      <!-- 在文件约 33 行 Email 后面添加 -->
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      {% endif %}
+      {% if author.email2 %}
+        <li><a href="mailto:{{ author.email2 }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email 2</a></li>
+      {% endif %}
+      
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -58,6 +67,15 @@
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
       {% endif %}
+
+      <!-- 在文件约 69 行 Github 后面添加 -->
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      {% endif %}
+      {% if author.kaggle %}
+        <li><a href="https://www.kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle" aria-hidden="true"></i> Kaggle</a></li>
+      {% endif %}
+      
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
       {% endif %}
