@@ -50,7 +50,7 @@ My research interest includes neural machine translation and computer vision. I 
 {% endcomment %}
 
 
-# 🎖 Honors and Awards
+# 🎖 Honors & Awards
 - *2025.12*, **the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province(University-level Project)** . 
   - Project: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
   - A undergraduate project with a grant of CN¥20,000.
@@ -87,6 +87,12 @@ My research interest includes neural machine translation and computer vision. I 
 - *2023.07*, **National Second Prize**, The 3rd China High School Mathematical Contest in Modeling.
   - **Role**: Solo Participant. **Topic**: *Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic*.
   - Hosted by Beijing Normal University.
+
+# ⚒️ Skill
+- **Programming**: Python, C, Java, MATLAB, LATEX
+- **Frameworks**: PyTorch, NumPy, MNE
+- **Tools**: Git, Docker, Jupyter
+- **Languages**: Chinese (Native), English (Fluent, CET-4)
 
 
 # 🤝 Social Work & Services
