@@ -97,5 +97,5 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🤝 Social Work & Services
 - **Southern University of Science and Technology Red Cross Youth Chapter**: Certified First Aider by Shenzhen Red Cross Society. The chapter was recognized as a *National Red Cross Model Unit* by the Red Cross Society of China (2025).
-- **Mental Health First Aid (MHFA) Standard Course**: Certificate of Completion issued by The Mental Health Association of Hong Kong (authorized by MHFA International).
+- - **Mental Health First Aider (MHFAider)**: Standard Course Certificate of Completion issued by The Mental Health Association of Hong Kong (authorized by MHFA International).
 - **Excellent Dormitory Manager** of Southern University of Science and Technology, Zhicheng College.
