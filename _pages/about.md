@@ -50,7 +50,7 @@ My research interest includes neural machine translation and computer vision. I 
 {% endcomment %}
 
 
-# 🎖 Honors & Awards
+# 🎖 Honors and Awards
 - *2025.12*, **the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province(University-level Project)** . 
   - Project: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
   - A undergraduate project with a grant of CN¥20,000.
