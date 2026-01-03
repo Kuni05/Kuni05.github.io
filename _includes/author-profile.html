@@ -28,17 +28,17 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
-
+      
       <!-- 学术邮箱 -->
       {% if author.email_academic %}
         <li><a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Academic Email</a></li>
       {% endif %}
-
+      
       <!-- 个人邮箱 -->
       {% if author.email_personal %}
         <li><a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i> Personal Email</a></li>
       {% endif %}
-
+      
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -75,11 +75,11 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
-
+      
       {% if author.kaggle %}
         <li><a href="https://www.kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle" aria-hidden="true"></i> Kaggle</a></li>
       {% endif %}
-
+      
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
       {% endif %}
@@ -134,24 +134,24 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-      {% endif %}
-      </ul>
+{% endif %}
+    </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
-
+        
       {% if author.email_academic %}
         <a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email_personal %}
         <a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i></a>
       {% endif %}
-
+        
       {% if author.kaggle %}
         <a href="https://www.kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle" aria-hidden="true"></i></a>
       {% endif %}
-
+        
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
@@ -239,12 +239,6 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
-
-      <div style="margin-top: 20px; text-align: center; padding: 10px 0;">
-       <p style="font-size: 14px; margin-bottom: 5px; color: #666;">Visitor Map</p>
-       <a href="https://mapmyvisitors.com/web/1c1mr" title="Visit tracker">
-         <img src="https://mapmyvisitors.com/map.png?d=ACFIomqhG2eVJkzskzjyzlzfoSrKvVC7umx9s7uoUvo&cl=ffffff" style="max-width: 100%;" />
-       </a>
     </div>
   </div>
 </div>
