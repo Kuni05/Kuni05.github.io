@@ -19,8 +19,6 @@ redirect_from:
 
 Hi! I'm a sophomore undergraduate student in Engineering at Southern University of Science and Technology（SUSTech）, intending to major in EE/BME. Strong interests in neuroscience and BCI, with with goals to explore the mysteries of the brain and develop innovative brain-computer interface technologies. 
 
-<br>
-
 Currently conducting research at NCC Lab under the supervision of Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao).
 
 
@@ -52,8 +50,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🎖 Honors and Awards
 - *2025.12*, **the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province(University-level Project)** . 
-  - Project: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
-  - A undergraduate project with a grant of CN¥20,000.
+  - Project with a grant of CN¥20,000: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
 - *2025.11*, **Award of Excellence (Poster Presentation)**, The 6th SUSTech BME Research Day.
   - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
 
@@ -62,8 +59,11 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.09 - 2024.06*, High School Diploma, [Attached Middle School to Jiangxi Normal University](http://www.jxsdfz.com/), Nanchang
 
 # 🔬 Research Experience
-- *2024.09 - Present*, **Neural Computing and Control Lab (NCC Lab)**, SUSTech,  
-  Supervisor: Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)
+- <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+    <span>*2024.09 - Present*, <strong>Neural Computing and Control Lab (NCC Lab)</strong>, SUSTech</span>
+    <span>Supervisor: A.P. <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">Quanying Liu</a></span>
+  </div>
+  <div style="margin-top: 2px; margin-bottom: 8px; font-style: italic; color: #555;">Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.</div>
   - **Multimodal Neural Encoding & Decoding**: 
     - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
     - *Auditory & Language Processing*: Foundation Model-Aligned Chinese Semantic Decoding
