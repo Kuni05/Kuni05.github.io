@@ -59,24 +59,38 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.09 - 2024.06*, High School Diploma, [Attached Middle School to Jiangxi Normal University](http://www.jxsdfz.com/), Nanchang
 
 # 🔬 Research Experience
-- <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <span>*2024.09 - Present*, <strong>Neural Computing and Control Lab (NCC Lab)</strong>, SUSTech</span>
-    <span>Supervisor: A.P. <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">Quanying Liu</a></span>
-  </div>
-  <div style="margin-top: 2px; margin-bottom: 8px; font-style: italic; color: #555;">Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.</div>
-  - **Multimodal Neural Encoding & Decoding**: 
-    - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
-    - *Auditory & Language Processing*: Foundation Model-Aligned Chinese Semantic Decoding
-    - *Multimodal Decoding*: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing
-  - **Cross-Modal BCI Systems & Intelligent Control**:
-    - *Computer Vision*: Multi-View 3D Reconstruction System for EEG Electrode Localization
-  - **Neural Modulation for Emotion & Cognition**:
-    - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
+
+<details class="collapsible-section">
+<summary>
+  <span class="summary-title"><em>2024.09 - Present</em>, <strong>Neural Computing and Control Lab (NCC Lab)</strong>, SUSTech</span>
+  <span class="summary-supervisor">Supervisor: A.P. <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">Quanying Liu</a></span>
+</summary>
+<div class="collapsible-content">
+
+*Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.*
+
+- **Multimodal Neural Encoding & Decoding**: 
+  - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
+  - *Auditory & Language Processing*: Foundation Model-Aligned Chinese Semantic Decoding
+  - *Multimodal Decoding*: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing
+- **Cross-Modal BCI Systems & Intelligent Control**:
+  - *Computer Vision*: Multi-View 3D Reconstruction System for EEG Electrode Localization
+- **Neural Modulation for Emotion & Cognition**:
+  - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
+
+</div>
+</details>
 
 
 <span class='anchor' id='competitions'></span>
 # 🏆 Competitions
-## Mathematical Modeling
+
+<details class="collapsible-section">
+<summary>
+  <span class="summary-title"><strong>Mathematical Modeling</strong></span>
+</summary>
+<div class="collapsible-content">
+
 - *2025.12*, **Winning Prize**, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
   - **Role**: Team Leader. **Topic**: *Comprehensive Evaluation and Development Analysis of Stablecoins*.
   - Hosted by Guangdong Society for Industrial and Applied Mathematics & Guangdong-Hong Kong-Macau Center for Applied Mathematics (Sun Yat-sen University); Organized by Guangdong Association for Science and Technology.
@@ -87,6 +101,9 @@ My research interest includes neural machine translation and computer vision. I 
 - *2023.07*, **National Second Prize**, The 3rd China High School Mathematical Contest in Modeling.
   - **Role**: Solo Participant. **Topic**: *Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic*.
   - Hosted by Beijing Normal University.
+
+</div>
+</details>
 
 # ⚒️ Skill
 - **Programming**: Python, C, Java, MATLAB, LATEX

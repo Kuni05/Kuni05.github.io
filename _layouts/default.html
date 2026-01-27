@@ -7,9 +7,100 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      /* Collapsible sections styling */
+      details.collapsible-section {
+        margin: 15px 0;
+        border: none;
+        background: transparent;
+      }
+      details.collapsible-section summary {
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 5px 0;
+        user-select: none;
+      }
+      /* 隐藏默认的三角形 */
+      details.collapsible-section summary::-webkit-details-marker {
+        display: none;
+      }
+      details.collapsible-section summary::marker {
+        display: none;
+        content: '';
+      }
+      /* 自定义三角形 - 淡色，在标题前 */
+      details.collapsible-section summary::before {
+        content: '▶';
+        color: #b0b0b0;
+        font-size: 0.7em;
+        margin-right: 8px;
+        transition: transform 0.2s ease;
+        display: inline-block;
+      }
+      /* 展开时三角形旋转 */
+      details.collapsible-section[open] summary::before {
+        transform: rotate(90deg);
+        color: #666;
+      }
+      details.collapsible-section summary:hover::before {
+        color: #666;
+      }
+      details.collapsible-section .summary-title {
+        flex: 1;
+      }
+      details.collapsible-section .summary-supervisor {
+        color: #666;
+        font-size: 0.9em;
+      }
+      details.collapsible-section .collapsible-content {
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-left: 10px;
+        border-left: 2px solid #e1e4e8;
+      }
+      /* Maintenance mode styling */
+      .maintenance-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+      .maintenance-content {
+        text-align: center;
+        color: white;
+        padding: 40px;
+        max-width: 500px;
+      }
+      .maintenance-content h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+      .maintenance-content p {
+        font-size: 1.2em;
+        opacity: 0.9;
+      }
+    </style>
   </head>
 
   <body>
+    {% if site.site_maintenance_mode %}
+    <div class="maintenance-overlay">
+      <div class="maintenance-content">
+        <h1>🔧</h1>
+        <p>{{ site.site_maintenance_message | default: "Website is currently under maintenance. Please check back later." }}</p>
+      </div>
+    </div>
+    {% else %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -28,6 +119,7 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
+    
+    {% endif %}
   </body>
 </html>
