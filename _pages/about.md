@@ -60,48 +60,63 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🔬 Research Experience
 
-<details class="collapsible-section">
-<summary>
-  <span class="summary-title"><em>2024.09 - Present</em>, <strong>Neural Computing and Control Lab (NCC Lab)</strong>, SUSTech</span>
-  <span class="summary-supervisor">Supervisor: A.P. <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">Quanying Liu</a></span>
-</summary>
-<div class="collapsible-content">
-
-*Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.*
-
-- **Multimodal Neural Encoding & Decoding**: 
-  - *Visual*: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)
-  - *Auditory & Language Processing*: Foundation Model-Aligned Chinese Semantic Decoding
-  - *Multimodal Decoding*: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing
-- **Cross-Modal BCI Systems & Intelligent Control**:
-  - *Computer Vision*: Multi-View 3D Reconstruction System for EEG Electrode Localization
-- **Neural Modulation for Emotion & Cognition**:
-  - *Real-Time System*: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization
-
+<div class="research-item">
+  <div class="research-header">
+    <span><em>2024.09 - Present</em>, <strong>Neural Computing and Control Lab (NCC Lab)</strong>, SUSTech</span>
+    <span class="research-supervisor">Supervisor: A.P. <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">Quanying Liu</a></span>
+  </div>
+  <details class="research-details">
+    <summary>Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.</summary>
+    <div class="research-content">
+      <ul>
+        <li><strong>Multimodal Neural Encoding & Decoding</strong>:
+          <ul>
+            <li><em>Visual</em>: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)</li>
+            <li><em>Auditory & Language Processing</em>: Foundation Model-Aligned Chinese Semantic Decoding</li>
+            <li><em>Multimodal Decoding</em>: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing</li>
+          </ul>
+        </li>
+        <li><strong>Cross-Modal BCI Systems & Intelligent Control</strong>:
+          <ul>
+            <li><em>Computer Vision</em>: Multi-View 3D Reconstruction System for EEG Electrode Localization</li>
+          </ul>
+        </li>
+        <li><strong>Neural Modulation for Emotion & Cognition</strong>:
+          <ul>
+            <li><em>Real-Time System</em>: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </details>
 </div>
-</details>
 
 
 <span class='anchor' id='competitions'></span>
 # 🏆 Competitions
 
-<details class="collapsible-section">
-<summary>
-  <span class="summary-title"><strong>Mathematical Modeling</strong></span>
-</summary>
-<div class="collapsible-content">
-
-- *2025.12*, **Winning Prize**, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
-  - **Role**: Team Leader. **Topic**: *Comprehensive Evaluation and Development Analysis of Stablecoins*.
-  - Hosted by Guangdong Society for Industrial and Applied Mathematics & Guangdong-Hong Kong-Macau Center for Applied Mathematics (Sun Yat-sen University); Organized by Guangdong Association for Science and Technology.
-
-- *2025.05*, **Honorable Mention (H Award)**, Mathematical Contest in Modeling (MCM/ICM).
-  - **Role**: Solo Participant. **Topic**: *Cybersecurity Analysis Based on the Global Cybersecurity Index (GCI)*.
-
-- *2023.07*, **National Second Prize**, The 3rd China High School Mathematical Contest in Modeling.
-  - **Role**: Solo Participant. **Topic**: *Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic*.
-  - Hosted by Beijing Normal University.
-
+<details class="competition-details">
+<summary><strong>Mathematical Modeling</strong></summary>
+<div class="competition-content">
+  <ul>
+    <li><em>2025.12</em>, <strong>Winning Prize</strong>, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
+      <ul>
+        <li><strong>Role</strong>: Team Leader. <strong>Topic</strong>: <em>Comprehensive Evaluation and Development Analysis of Stablecoins</em>.</li>
+        <li>Hosted by Guangdong Society for Industrial and Applied Mathematics & Guangdong-Hong Kong-Macau Center for Applied Mathematics (Sun Yat-sen University).</li>
+      </ul>
+    </li>
+    <li><em>2025.05</em>, <strong>Honorable Mention (H Award)</strong>, Mathematical Contest in Modeling (MCM/ICM).
+      <ul>
+        <li><strong>Role</strong>: Solo Participant. <strong>Topic</strong>: <em>Cybersecurity Analysis Based on the Global Cybersecurity Index (GCI)</em>.</li>
+      </ul>
+    </li>
+    <li><em>2023.07</em>, <strong>National Second Prize</strong>, The 3rd China High School Mathematical Contest in Modeling.
+      <ul>
+        <li><strong>Role</strong>: Solo Participant. <strong>Topic</strong>: <em>Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic</em>.</li>
+        <li>Hosted by Beijing Normal University.</li>
+      </ul>
+    </li>
+  </ul>
 </div>
 </details>
 

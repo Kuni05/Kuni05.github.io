@@ -8,59 +8,89 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <style>
-      /* Collapsible sections styling */
-      details.collapsible-section {
+      /* Research Experience styling */
+      .research-item {
         margin: 15px 0;
-        border: none;
-        background: transparent;
       }
-      details.collapsible-section summary {
-        cursor: pointer;
-        list-style: none;
+      .research-header {
         display: flex;
+        justify-content: space-between;
         align-items: baseline;
         flex-wrap: wrap;
         gap: 10px;
+        margin-bottom: 8px;
+      }
+      .research-supervisor {
+        color: #666;
+        font-size: 0.9em;
+      }
+      /* Research details collapsible */
+      details.research-details,
+      details.competition-details {
+        margin: 5px 0;
+      }
+      details.research-details summary,
+      details.competition-details summary {
+        cursor: pointer;
+        list-style: none;
+        color: #555;
+        font-style: italic;
         padding: 5px 0;
-        user-select: none;
+        display: inline-flex;
+        align-items: center;
       }
-      /* 隐藏默认的三角形 */
-      details.collapsible-section summary::-webkit-details-marker {
+      details.research-details summary::-webkit-details-marker,
+      details.competition-details summary::-webkit-details-marker {
         display: none;
       }
-      details.collapsible-section summary::marker {
-        display: none;
-        content: '';
-      }
-      /* 自定义三角形 - 淡色，在标题前 */
-      details.collapsible-section summary::before {
+      details.research-details summary::before,
+      details.competition-details summary::before {
         content: '▶';
-        color: #b0b0b0;
-        font-size: 0.7em;
+        color: #c0c0c0;
+        font-size: 0.65em;
         margin-right: 8px;
         transition: transform 0.2s ease;
         display: inline-block;
       }
-      /* 展开时三角形旋转 */
-      details.collapsible-section[open] summary::before {
+      details.research-details[open] summary::before,
+      details.competition-details[open] summary::before {
         transform: rotate(90deg);
-        color: #666;
+        color: #888;
       }
-      details.collapsible-section summary:hover::before {
-        color: #666;
+      details.research-details summary:hover::before,
+      details.competition-details summary:hover::before {
+        color: #888;
       }
-      details.collapsible-section .summary-title {
-        flex: 1;
+      details.competition-details summary {
+        font-style: normal;
+        color: #333;
       }
-      details.collapsible-section .summary-supervisor {
-        color: #666;
-        font-size: 0.9em;
+      .research-content,
+      .competition-content {
+        margin-top: 12px;
+        margin-left: 15px;
+        padding-left: 12px;
+        border-left: 2px solid #e8e8e8;
       }
-      details.collapsible-section .collapsible-content {
-        margin-left: 20px;
-        margin-top: 10px;
-        padding-left: 10px;
-        border-left: 2px solid #e1e4e8;
+      .research-content ul,
+      .competition-content ul {
+        margin: 0;
+        padding-left: 0;
+        list-style-position: outside;
+      }
+      .research-content > ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      .research-content ul ul {
+        list-style-type: circle;
+        margin-top: 5px;
+        padding-left: 20px;
+      }
+      .research-content li,
+      .competition-content li {
+        margin: 8px 0;
+        line-height: 1.5;
       }
       /* Maintenance mode styling */
       .maintenance-overlay {
