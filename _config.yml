@@ -12,7 +12,7 @@ repository               : "Kuni05/Kuni05.github.io"
 google_scholar_stats_use_cdn : true
 
 # Site Access Control (set to true to enable maintenance mode and block access)
-site_maintenance_mode    : true
+site_maintenance_mode    : false
 site_maintenance_message : "🚧 Website is currently under maintenance. Please check back later."
 
 # google analytics
