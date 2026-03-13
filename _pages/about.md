@@ -86,6 +86,11 @@ My research interest includes neural machine translation and computer vision. I 
             <li><em>Real-Time System</em>: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization</li>
           </ul>
         </li>
+        <li><strong>EEG Foundation Models </strong>:
+          <ul>
+            <li><em>Sleep</em>: Post-training and Adaptation of EEG Foundation Models for Sleep Analysis</li>
+          </ul>
+        </li>
       </ul>
     </div>
   </details>
