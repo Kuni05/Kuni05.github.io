@@ -106,7 +106,7 @@ My research interest includes neural machine translation and computer vision. I 
   <ul>
     <li><em>2026.05</em>, <strong>Finalist (About Top1%)</strong>, Mathematical Contest in Modeling (MCM/ICM).
       <ul>
-        <li><strong>Role</strong>: Team Leader &amp; Advisor. <strong>Topic</strong>: <em>Creating a Moon Colony Using a Space Elevator System</em>.</li>
+        <li><strong>Role</strong>: Team Leader &amp; Advisor. <strong>Topic</strong>: <em>Artemis's Choice: Chariot or Elevator?</em>.</li>
       </ul>
     </li>
     <li><em>2025.12</em>, <strong>Winning Prize</strong>, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.

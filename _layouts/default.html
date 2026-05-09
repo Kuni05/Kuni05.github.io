@@ -125,7 +125,15 @@ layout: compress
   </head>
 
   <body>
-    {% if site.site_maintenance_mode %}
+    {% if page.page_maintenance %}
+    <div class="maintenance-overlay">
+      <div class="maintenance-content">
+        <h1>🚧</h1>
+        <p>中文版正在建设中，敬请期待。</p>
+        <p style="margin-top: 24px;"><a href="/" style="color: white; opacity: 0.85; font-size: 0.9em; text-decoration: underline;">← Switch to English</a></p>
+      </div>
+    </div>
+    {% elsif site.site_maintenance_mode %}
     <div class="maintenance-overlay">
       <div class="maintenance-content">
         <h1>🔧</h1>
