@@ -1,16 +1,20 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign is_cn = false %}
+{% if page.permalink == '/cn/' %}
+  {% assign is_cn = true %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{% if is_cn %}左嘉宇（Ryan）{% else %}{{ author.name }}{% endif %}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{% if is_cn %}左嘉宇（Ryan）{% else %}{{ author.name }}{% endif %}</h3>
+    {% if author.bio %}<p class="author__bio">{% if is_cn %}南方科技大学（SUSTech）{% else %}{{ author.bio }}{% endif %}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -19,29 +23,34 @@
       <li>
         <div style="white-space: normal; margin-bottom: 1em;">
           <details style="margin-top: 0.3em;">
-            <summary style="cursor: pointer; font-style: italic; font-size: 0.85em; line-height: 1.5;">The longer the detour, the richer the diversity; the deeper the attention, the more eternal the now.</summary>
-            <p style="font-size: 0.78em; margin-top: 0.6em; color: #888; line-height: 1.6;">Taking the long way around because the meaning of life lies not in arrival, but in the journey. By treasuring each present moment, you learn the secret of reversing time—not by turning it back, but by making every experience so vivid that it never truly fades.</p>
+            {% if is_cn %}
+              <summary style="cursor: pointer; font-style: italic; font-size: 0.85em; line-height: 1.5;">绕得越远，见得越丰；注视越深，此刻越恒久。</summary>
+              <p style="font-size: 0.78em; margin-top: 0.6em; color: #888; line-height: 1.6;">选择绕远路，因为生命的意义不只在抵达，也在途中。珍惜每一个当下，便是在学习逆转时间的秘密：不是让时间倒流，而是让每段经历足够鲜明，以至于它从未真正褪色。</p>
+            {% else %}
+              <summary style="cursor: pointer; font-style: italic; font-size: 0.85em; line-height: 1.5;">The longer the detour, the richer the diversity; the deeper the attention, the more eternal the now.</summary>
+              <p style="font-size: 0.78em; margin-top: 0.6em; color: #888; line-height: 1.6;">Taking the long way around because the meaning of life lies not in arrival, but in the journey. By treasuring each present moment, you learn the secret of reversing time—not by turning it back, but by making every experience so vivid that it never truly fades.</p>
+            {% endif %}
           </details>
         </div>
       </li>
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {% if is_cn %}中国深圳{% else %}{{ author.location }}{% endif %}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {% if is_cn %}个人主页{% else %}Website{% endif %}</a></li>
       {% endif %}
       
       <!-- 学术邮箱 -->
       {% if author.email_academic %}
-        <li><a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Academic Email</a></li>
+        <li><a href="mailto:{{ author.email_academic }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {% if is_cn %}学术邮箱{% else %}Academic Email{% endif %}</a></li>
       {% endif %}
       
       <!-- 个人邮箱 -->
       {% if author.email_personal %}
-        <li><a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i> Personal Email</a></li>
+        <li><a href="mailto:{{ author.email_personal }}"><i class="fas fa-fw fa-envelope-open" aria-hidden="true"></i> {% if is_cn %}个人邮箱{% else %}Personal Email{% endif %}</a></li>
       {% endif %}
       
       {% if author.keybase %}
@@ -60,7 +69,7 @@
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
       {% endif %}
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> {% if is_cn %}领英{% else %}LinkedIn{% endif %}</a></li>
       {% endif %}
       {% if author.dblp %}
         <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a></li>
@@ -73,12 +82,12 @@
       {% endif %}
 
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> {% if is_cn %}谷歌学术{% else %}Google Scholar{% endif %}</a></li>
       {% endif %}
 
       <!-- 在文件约 69 行 Github 后面添加 -->
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> {% if is_cn %}GitHub{% else %}Github{% endif %}</a></li>
       {% endif %}
       
       {% if author.kaggle %}

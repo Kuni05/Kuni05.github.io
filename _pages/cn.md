@@ -17,11 +17,11 @@ author_profile: true
 - *2025.12*: &nbsp;🎉🎉 项目“面向基础模型对齐的中文脑信号语义解码”获广东省大学生科技创新培育专项资金（“攀登计划”专项资金）支持
 
 {% comment %}
-<span class="anchor" id="-publications"></span>
 # 📝 论文
 
 首篇论文仍在投稿中，暂不展示。
 {% endcomment %}
+<span class="anchor" id="-publications"></span>
 
 <span class="anchor" id="-honors-and-awards"></span>
 # 🎖 荣誉与奖励
