@@ -49,27 +49,34 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🎖 Honors and Awards
-- *2026.05*, **College Students' Innovative Entrepreneurial Training Plan Program**.
+<div class="honors-list">
   <details class="honor-details">
-    <summary>Project details</summary>
-    <div class="honor-content" markdown="1">
-    - Project with a grant of CN¥20,000: *Opti-Rhythm：基于生理拓扑的脑体耦合基础模型的数字睡眠调控系统*.
+    <summary><span class="honor-date">2026.05</span>, <strong>College Students' Innovative Entrepreneurial Training Plan Program</strong>.</summary>
+    <div class="honor-content">
+      <ul>
+        <li>Project with a grant of CNY 20,000: <em>Opti-Rhythm: 基于生理拓扑的脑体耦合基础模型的数字睡眠调控系统</em>.</li>
+      </ul>
     </div>
   </details>
-- *2025.12*, **Special Funds for the Cultivation of Guangdong College Students' Scientific and Technological Innovation. ("Climbing Program" Special Funds.)**.
+
   <details class="honor-details">
-    <summary>Project details</summary>
-    <div class="honor-content" markdown="1">
-    - Project with a grant of CN¥20,000: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*.
+    <summary><span class="honor-date">2025.12</span>, <strong>Special Funds for the Cultivation of Guangdong College Students' Scientific and Technological Innovation. ("Climbing Program" Special Funds.)</strong>.</summary>
+    <div class="honor-content">
+      <ul>
+        <li>Project with a grant of CNY 20,000: <em>Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals</em>.</li>
+      </ul>
     </div>
   </details>
-- *2025.11*, **Award of Excellence (Poster Presentation)**, The 6th SUSTech BME Research Day.
+
   <details class="honor-details">
-    <summary>Project details</summary>
-    <div class="honor-content" markdown="1">
-    - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
+    <summary><span class="honor-date">2025.11</span>, <strong>Award of Excellence (Poster Presentation)</strong>, The 6th SUSTech BME Research Day.</summary>
+    <div class="honor-content">
+      <ul>
+        <li>Project: <em>MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization</em>.</li>
+      </ul>
     </div>
   </details>
+</div>
 
 # 📖 Educations
 - *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
