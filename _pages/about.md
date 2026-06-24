@@ -54,7 +54,7 @@ My research interest includes neural machine translation and computer vision. I 
     <summary><span class="honor-line"><span class="honor-date">2026.05</span>, <strong>College Students' Innovative Entrepreneurial Training Plan Program</strong></span></summary>
     <div class="honor-content">
       <ul>
-        <li>Project with a grant of CNY 20,000: <em>Opti-Rhythm: 基于生理拓扑的脑体耦合基础模型的数字睡眠调控系统</em></li>
+        <li>Project with a grant of CNY 20,000: <em>Opti-Rhythm: A Digital Sleep Modulation System Based on a Physiological-Topology Brain-Body Coupling Foundation Model</em></li>
       </ul>
     </div>
   </details>
@@ -93,28 +93,10 @@ My research interest includes neural machine translation and computer vision. I 
     <summary>Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.</summary>
     <div class="research-content">
       <ul>
-        <li><strong>Multimodal Neural Encoding & Decoding</strong>:
-          <ul>
-            <li><em>Visual</em>: High-Fidelity EEG Visual Decoding (EEG-to-Image) & Visual Encoding (Image-to-EEG)</li>
-            <li><em>Auditory & Language Processing</em>: Foundation Model-Aligned Chinese Semantic Decoding</li>
-            <li><em>Multimodal Decoding</em>: Generalizable Brain-to-Concept Translation via Adaptive Multimodal Routing</li>
-          </ul>
-        </li>
-        <li><strong>Cross-Modal BCI Systems & Intelligent Control</strong>:
-          <ul>
-            <li><em>Computer Vision</em>: Multi-View 3D Reconstruction System for EEG Electrode Localization</li>
-          </ul>
-        </li>
-        <li><strong>Neural Modulation for Emotion & Cognition</strong>:
-          <ul>
-            <li><em>Real-Time System</em>: EEG-Guided Brain Modulation using Closed-loop Visual Stimulation Optimization</li>
-          </ul>
-        </li>
-        <li><strong>EEG Foundation Models </strong>:
-          <ul>
-            <li><em>Sleep</em>: Post-training and Adaptation of EEG Foundation Models for Sleep Analysis</li>
-          </ul>
-        </li>
+        <li><strong>Multimodal Neural Encoding & Decoding</strong></li>
+        <li><strong>Cross-Modal BCI Systems & Intelligent Control</strong></li>
+        <li><strong>Neural Modulation for Emotion & Cognition</strong></li>
+        <li><strong>Foundation Models</strong></li>
       </ul>
     </div>
   </details>
