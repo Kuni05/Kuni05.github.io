@@ -26,10 +26,12 @@ layout: compress
       }
       /* Research details collapsible */
       details.research-details,
+      details.honor-details,
       details.competition-details {
         margin: 5px 0;
       }
       details.research-details summary,
+      details.honor-details summary,
       details.competition-details summary {
         cursor: pointer;
         list-style: none;
@@ -40,10 +42,12 @@ layout: compress
         align-items: center;
       }
       details.research-details summary::-webkit-details-marker,
+      details.honor-details summary::-webkit-details-marker,
       details.competition-details summary::-webkit-details-marker {
         display: none;
       }
       details.research-details summary::before,
+      details.honor-details summary::before,
       details.competition-details summary::before {
         content: '▶';
         color: #c0c0c0;
@@ -53,19 +57,23 @@ layout: compress
         display: inline-block;
       }
       details.research-details[open] summary::before,
+      details.honor-details[open] summary::before,
       details.competition-details[open] summary::before {
         transform: rotate(90deg);
         color: #888;
       }
       details.research-details summary:hover::before,
+      details.honor-details summary:hover::before,
       details.competition-details summary:hover::before {
         color: #888;
       }
+      details.honor-details summary,
       details.competition-details summary {
         font-style: normal;
         color: #333;
       }
       .research-content,
+      .honor-content,
       .competition-content {
         margin-top: 12px;
         margin-left: 15px;
@@ -73,23 +81,27 @@ layout: compress
         border-left: 2px solid #e8e8e8;
       }
       .research-content ul,
+      .honor-content ul,
       .competition-content ul {
         margin: 0;
         padding-left: 0;
         list-style-position: outside;
       }
       .research-content > ul,
+      .honor-content > ul,
       .competition-content > ul {
         list-style-type: disc;
         padding-left: 20px;
       }
       .research-content ul ul,
+      .honor-content ul ul,
       .competition-content ul ul {
         list-style-type: circle;
         margin-top: 5px;
         padding-left: 20px;
       }
       .research-content li,
+      .honor-content li,
       .competition-content li {
         margin: 8px 0;
         line-height: 1.5;

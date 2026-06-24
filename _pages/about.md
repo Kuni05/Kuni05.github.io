@@ -27,7 +27,7 @@ My research interest includes neural machine translation and computer vision. I 
 {% endcomment %}
 
 # 🔥 News
-- *2025.12*: &nbsp;🎉🎉 Our project "Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals" reward by the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province
+- *2025.12*: &nbsp;🎉🎉 Our project "Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals" was supported by the Special Funds for the Cultivation of Guangdong College Students' Scientific and Technological Innovation. ("Climbing Program" Special Funds.)
 
 {% comment %}
 # 📝 Publications 
@@ -49,10 +49,27 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🎖 Honors and Awards
-- *2025.12*, **the University Scholars Innovation Technology Fund (Climb Program) of Guangdong Province(University-level Project)** . 
-  - Project with a grant of CN¥20,000: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*. 
+- *2026.05*, **College Students' Innovative Entrepreneurial Training Plan Program**.
+  <details class="honor-details">
+    <summary>Project details</summary>
+    <div class="honor-content" markdown="1">
+    - Project with a grant of CN¥20,000: *Opti-Rhythm：基于生理拓扑的脑体耦合基础模型的数字睡眠调控系统*.
+    </div>
+  </details>
+- *2025.12*, **Special Funds for the Cultivation of Guangdong College Students' Scientific and Technological Innovation. ("Climbing Program" Special Funds.)**.
+  <details class="honor-details">
+    <summary>Project details</summary>
+    <div class="honor-content" markdown="1">
+    - Project with a grant of CN¥20,000: *Foundation Model-Aligned Chinese Semantic Decoding from Brain Signals*.
+    </div>
+  </details>
 - *2025.11*, **Award of Excellence (Poster Presentation)**, The 6th SUSTech BME Research Day.
-  - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
+  <details class="honor-details">
+    <summary>Project details</summary>
+    <div class="honor-content" markdown="1">
+    - Project: *MindPilot: EEG-guided Brain Modulation using Closed-loop Visual Stimulation Optimization*.
+    </div>
+  </details>
 
 # 📖 Educations
 - *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
