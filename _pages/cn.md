@@ -9,7 +9,7 @@ author_profile: true
 
 你好！我是南方科技大学工学院大二本科生，计划主修电子与电气工程/生物医学工程。我对神经科学与脑机接口方向有浓厚兴趣，希望探索大脑的奥秘，并发展创新性的脑机接口技术。
 
-目前，我在南方科技大学神经计算与控制实验室（NCC Lab）跟随副教授 [刘全影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao) 开展科研工作。
+目前，我在南方科技大学神经计算与控制实验室（NCC Lab）跟随副教授 [刘泉影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao) 开展科研工作。
 
 <span class="anchor" id="-news"></span>
 # 🔥 新闻
@@ -67,7 +67,7 @@ author_profile: true
 <div class="research-item">
   <div class="research-header">
     <span><em>2024.09 - 至今</em>, <strong>神经计算与控制实验室（NCC Lab）</strong>，南方科技大学</span>
-    <span class="research-supervisor">导师：副教授 <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">刘全影</a></span>
+    <span class="research-supervisor">导师：副教授 <a href="https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao">刘泉影</a></span>
   </div>
   <details class="research-details">
     <summary>本科生科研助理，关注 BCI、CHI 与 NeuroAI</summary>
