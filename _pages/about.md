@@ -112,23 +112,23 @@ My research interest includes neural machine translation and computer vision. I 
   <ul>
     <li><em>2026.05</em>, <strong>Finalist (About Top1%)</strong>, Mathematical Contest in Modeling (MCM/ICM).
       <ul>
-        <li><strong>Role</strong>: Team Leader &amp; Advisor. <strong>Topic</strong>: <em>Artemis's Choice: Chariot or Elevator?</em>.</li>
+        <li>Role: <strong>Team Leader &amp; Advisor</strong>. Topic: <strong><em>Artemis's Choice: Chariot or Elevator?</em></strong>.</li>
       </ul>
     </li>
     <li><em>2025.12</em>, <strong>Winning Prize</strong>, The 6th "Greater Bay Area Cup" Financial Mathematical Modeling Contest.
       <ul>
-        <li><strong>Role</strong>: Team Leader. <strong>Topic</strong>: <em>Comprehensive Evaluation and Development Analysis of Stablecoins</em>.</li>
+        <li>Role: <strong>Team Leader</strong>. Topic: <strong><em>Comprehensive Evaluation and Development Analysis of Stablecoins</em></strong>.</li>
         <li>Hosted by Guangdong Society for Industrial and Applied Mathematics & Guangdong-Hong Kong-Macau Center for Applied Mathematics (Sun Yat-sen University).</li>
       </ul>
     </li>
     <li><em>2025.05</em>, <strong>Honorable Mention (H Award)</strong>, Mathematical Contest in Modeling (MCM/ICM).
       <ul>
-        <li><strong>Role</strong>: Solo Participant. <strong>Topic</strong>: <em>Cybersecurity Analysis Based on the Global Cybersecurity Index (GCI)</em>.</li>
+        <li>Role: <strong>Solo Participant</strong>. Topic: <strong><em>Cybersecurity Analysis Based on the Global Cybersecurity Index (GCI)</em></strong>.</li>
       </ul>
     </li>
     <li><em>2023.07</em>, <strong>National Second Prize</strong>, The 3rd China High School Mathematical Contest in Modeling.
       <ul>
-        <li><strong>Role</strong>: Solo Participant. <strong>Topic</strong>: <em>Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic</em>.</li>
+        <li>Role: <strong>Solo Participant</strong>. Topic: <strong><em>Game Theoretic Analysis of Medical Resource Runs During the COVID-19 Pandemic</em></strong>.</li>
         <li>Hosted by Beijing Normal University.</li>
       </ul>
     </li>

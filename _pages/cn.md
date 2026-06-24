@@ -91,23 +91,23 @@ author_profile: true
     <ul>
       <li><em>2026.05</em>, <strong>Finalist（约前 1%）</strong>，美国大学生数学建模竞赛（MCM/ICM）
         <ul>
-          <li><strong>角色：队长 &amp; Advisor</strong>。<strong>题目：<em>Artemis's Choice: Chariot or Elevator?</em></strong></li>
+          <li>角色：<strong>队长 &amp; Advisor</strong>。题目：<strong><em>Artemis's Choice: Chariot or Elevator?</em></strong></li>
         </ul>
       </li>
       <li><em>2025.12</em>, <strong>优胜奖</strong>，第六届“粤港澳大湾区杯”金融数学建模竞赛
         <ul>
-          <li><strong>角色：队长</strong>。<strong>题目：<em>稳定币的综合评价与发展分析</em></strong></li>
+          <li>角色：<strong>队长</strong>。题目：<strong><em>稳定币的综合评价与发展分析</em></strong></li>
           <li>主办方：广东省工业与应用数学学会、粤港澳应用数学中心（中山大学）</li>
         </ul>
       </li>
       <li><em>2025.05</em>, <strong>Honorable Mention（H 奖）</strong>，美国大学生数学建模竞赛（MCM/ICM）
         <ul>
-          <li><strong>角色：个人参赛</strong>。<strong>题目：<em>基于全球网络安全指数（GCI）的网络安全分析</em></strong></li>
+          <li>角色：<strong>个人参赛</strong>。题目：<strong><em>基于全球网络安全指数（GCI）的网络安全分析</em></strong></li>
         </ul>
       </li>
       <li><em>2023.07</em>, <strong>全国二等奖</strong>，第三届中国中学生数学建模竞赛
         <ul>
-          <li><strong>角色：个人参赛</strong>。<strong>题目：<em>COVID-19 疫情期间医疗资源挤兑的博弈论分析</em></strong></li>
+          <li>角色：<strong>个人参赛</strong>。题目：<strong><em>COVID-19 疫情期间医疗资源挤兑的博弈论分析</em></strong></li>
           <li>主办方：北京师范大学</li>
         </ul>
       </li>
