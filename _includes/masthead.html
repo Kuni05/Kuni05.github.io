@@ -32,18 +32,16 @@
             <a href="{{ "/files/CV.pdf" | relative_url }}">{% if page.permalink == '/cn/' %}简历{% else %}Resume{% endif %}</a>
           </li>
 
-          <!-- EN/CN 语言切换 + 更新时间（同一 li，强制同行） -->
-          <li class="masthead__menu-item" style="white-space: nowrap; opacity: 0.75; cursor: default;">
-            {% if page.permalink == '/cn/' %}
-              <a href="/" style="display: inline; font-size: 0.8em; color: #bbb; text-decoration: none;">英</a><span style="display: inline; font-size: 0.8em; color: #bbb; margin: 0 2px;">/</span><a href="/cn/" style="display: inline; font-size: 0.8em; font-weight: bold; color: inherit; text-decoration: none;">中</a>
-            {% else %}
-              <a href="/" style="display: inline; font-size: 0.8em; font-weight: bold; color: inherit; text-decoration: none;">EN</a><span style="display: inline; font-size: 0.8em; color: #bbb; margin: 0 2px;">/</span><a href="/cn/" style="display: inline; font-size: 0.8em; color: #bbb; text-decoration: none;">CN</a>
-            {% endif %}
-            <span style="font-size: 0.8em; color: #ccc; margin: 0 6px;">|</span>
-            <span style="font-size: 0.8em; opacity: 0.8;">{% if page.permalink == '/cn/' %}更新：{% else %}Updated: {% endif %}{{ site.time | date: "%Y-%m-%d" }}</span>
-          </li>
-          
         </ul>
+        <div class="masthead__meta">
+          {% if page.permalink == '/cn/' %}
+            <a href="/">英</a><span class="masthead__meta-separator">/</span><a class="is-current" href="/cn/">中</a>
+          {% else %}
+            <a class="is-current" href="/">EN</a><span class="masthead__meta-separator">/</span><a href="/cn/">CN</a>
+          {% endif %}
+          <span class="masthead__meta-divider">|</span>
+          <span class="masthead__updated">{% if page.permalink == '/cn/' %}更新：{% else %}Updated: {% endif %}{{ site.time | date: "%Y-%m-%d" }}</span>
+        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
