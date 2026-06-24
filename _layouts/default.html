@@ -73,23 +73,35 @@ layout: compress
         color: #333;
       }
       .honors-list {
-        margin: 0 0 1.2em 0;
+        margin: 0 0 1.1em 1.05em;
       }
       details.honor-details {
-        margin: 8px 0 12px;
+        margin: 0 0 0.45em;
       }
       details.honor-details summary {
         display: flex;
         align-items: baseline;
-        line-height: 1.45;
+        line-height: 1.32;
       }
       details.honor-details summary::before {
         flex: 0 0 auto;
-        margin-top: 0.35em;
+        margin-top: 0.32em;
       }
       .honor-date {
         font-style: italic;
         white-space: nowrap;
+      }
+      .honor-line {
+        min-width: 0;
+      }
+      .honor-note {
+        color: #888;
+        font-size: 0.82em;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+      details.honor-details .honor-content {
+        margin-top: 0.35em;
       }
       .research-content,
       .honor-content,
