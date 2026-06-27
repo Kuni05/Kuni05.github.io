@@ -61,6 +61,11 @@ author_profile: true
 - *2024.08 - 至今*, 本科，工学院，[南方科技大学](https://sustech.edu.cn/)，深圳
 - *2021.09 - 2024.06*, 高中，[江西师范大学附属中学](http://www.jxsdfz.com/)，南昌
 
+<div class="education-logos">
+  <img src="{{ "/images/sustech_logo.png" | relative_url }}" alt="南方科技大学" class="education-logo education-logo--sustech">
+  <img src="{{ "/images/jxsdfz_logo.png" | relative_url }}" alt="江西师范大学附属中学" class="education-logo education-logo--jxsdfz">
+</div>
+
 <span class="anchor" id="-research-experience"></span>
 # 🔬 科研经历
 
@@ -71,13 +76,18 @@ author_profile: true
   </div>
   <details class="research-details">
     <summary>本科生科研助理，关注 BCI、CHI 与 NeuroAI</summary>
-    <div class="research-content">
-      <ul>
-        <li><strong>多模态神经编码与解码</strong></li>
-        <li><strong>跨模态脑机接口系统与智能控制</strong></li>
-        <li><strong>面向情绪与认知的神经调控</strong></li>
-        <li><strong>基础模型</strong></li>
-      </ul>
+    <div class="research-details-body">
+      <div class="research-content">
+        <ul>
+          <li><strong>多模态神经编码与解码</strong></li>
+          <li><strong>跨模态脑机接口系统与智能控制</strong></li>
+          <li><strong>面向情绪与认知的神经调控</strong></li>
+          <li><strong>基础模型</strong></li>
+        </ul>
+      </div>
+      <div class="research-logo-panel">
+        <img src="{{ "/images/ncc_lab.png" | relative_url }}" alt="神经计算与控制实验室" class="research-logo">
+      </div>
     </div>
   </details>
 </div>

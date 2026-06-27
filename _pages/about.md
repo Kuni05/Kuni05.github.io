@@ -82,6 +82,11 @@ My research interest includes neural machine translation and computer vision. I 
 - *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
 - *2021.09 - 2024.06*, High School Diploma, [Attached Middle School to Jiangxi Normal University](http://www.jxsdfz.com/), Nanchang
 
+<div class="education-logos">
+  <img src="{{ "/images/sustech_logo.png" | relative_url }}" alt="Southern University of Science and Technology" class="education-logo education-logo--sustech">
+  <img src="{{ "/images/jxsdfz_logo.png" | relative_url }}" alt="Attached Middle School to Jiangxi Normal University" class="education-logo education-logo--jxsdfz">
+</div>
+
 # 🔬 Research Experience
 
 <div class="research-item">
@@ -91,13 +96,18 @@ My research interest includes neural machine translation and computer vision. I 
   </div>
   <details class="research-details">
     <summary>Undergraduate Researcher focusing on BCI, CHI, and NeuroAI.</summary>
-    <div class="research-content">
-      <ul>
-        <li><strong>Multimodal Neural Encoding & Decoding</strong></li>
-        <li><strong>Cross-Modal BCI Systems & Intelligent Control</strong></li>
-        <li><strong>Neural Modulation for Emotion & Cognition</strong></li>
-        <li><strong>Foundation Models</strong></li>
-      </ul>
+    <div class="research-details-body">
+      <div class="research-content">
+        <ul>
+          <li><strong>Multimodal Neural Encoding & Decoding</strong></li>
+          <li><strong>Cross-Modal BCI Systems & Intelligent Control</strong></li>
+          <li><strong>Neural Modulation for Emotion & Cognition</strong></li>
+          <li><strong>Foundation Models</strong></li>
+        </ul>
+      </div>
+      <div class="research-logo-panel">
+        <img src="{{ "/images/ncc_lab.png" | relative_url }}" alt="Neural Computing and Control Lab" class="research-logo">
+      </div>
     </div>
   </details>
 </div>

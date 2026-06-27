@@ -137,6 +137,75 @@ layout: compress
         margin: 8px 0;
         line-height: 1.5;
       }
+      .research-details-body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 24px;
+      }
+      .research-details-body .research-content {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+      .research-logo-panel {
+        flex: 0 0 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+      }
+      .research-logo {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;
+      }
+      .education-logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: clamp(32px, 12vw, 180px);
+        margin: 1.6em 0 1.8em;
+      }
+      .education-logo {
+        display: block;
+        height: auto;
+        object-fit: contain;
+      }
+      .education-logo--sustech {
+        width: min(42vw, 340px);
+        max-width: 340px;
+      }
+      .education-logo--jxsdfz {
+        width: min(18vw, 110px);
+        max-width: 110px;
+      }
+      @media (max-width: 700px) {
+        .research-details-body {
+          flex-direction: column;
+          gap: 12px;
+        }
+        .research-logo-panel {
+          flex: 0 0 auto;
+          justify-content: flex-start;
+          width: 100%;
+          padding-left: 20px;
+        }
+        .research-logo {
+          max-width: 120px;
+        }
+        .education-logos {
+          justify-content: flex-start;
+          gap: 24px;
+          flex-wrap: wrap;
+        }
+        .education-logo--sustech {
+          width: min(68vw, 300px);
+        }
+        .education-logo--jxsdfz {
+          width: 86px;
+        }
+      }
       /* Maintenance mode styling */
       .maintenance-overlay {
         position: fixed;
