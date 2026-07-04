@@ -92,7 +92,7 @@ My research interest includes neural machine translation and computer vision. I 
 <div class="research-item">
   <div class="research-header">
     <span><em>2026.06 - Present</em>, <strong><a href="https://omni-intel.cn/">Omni-Intelligence</a></strong>, Shenzhen</span>
-    <span class="research-supervisor">Supervisors: <a href="https://hedges0-0.github.io/">Dr. Chen Wei</a> &amp; <a href="https://dongyangli.site/">Dongyang Li</a></span>
+    <span class="research-supervisor">Supervisors: <a href="https://hedges0-0.github.io/">Dr. Chen Wei</a> &amp; Mr. <a href="https://dongyangli.site/">Dongyang Li</a></span>
   </div>
   <details class="research-details">
     <summary>Research Intern working on human preference-aligned post-training for generative models.</summary>
