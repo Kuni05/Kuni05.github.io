@@ -92,6 +92,26 @@ author_profile: true
   </details>
 </div>
 
+<div class="research-item">
+  <div class="research-header">
+    <span><em>2026.06 - 至今</em>, <strong>Research Intern</strong>，<a href="https://omni-intel.cn/">全域智能（Omni-Intelligence）</a></span>
+    <span class="research-supervisor">导师：<a href="https://hedges0-0.github.io/">陈伟博士</a> &amp; <a href="https://dongyangli.site/">李东阳</a></span>
+  </div>
+  <details class="research-details">
+    <summary>研究实习，关注基于人类偏好对齐的生成模型后训练</summary>
+    <div class="research-details-body">
+      <div class="research-content">
+        <ul>
+          <li><strong>基于人类偏好对齐的生成模型后训练</strong></li>
+        </ul>
+      </div>
+      <div class="research-logo-panel research-logo-panel--wide">
+        <img src="{{ "/images/omni_intelligence.png" | relative_url }}" alt="全域智能" class="research-logo research-logo--wide">
+      </div>
+    </div>
+  </details>
+</div>
+
 <span class="anchor" id="competitions"></span>
 # 🏆 竞赛经历
 
