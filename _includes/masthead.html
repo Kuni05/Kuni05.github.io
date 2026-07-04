@@ -29,7 +29,7 @@
 
           <!-- 新增：CV 选项（样式与其他相同） -->
           <li class="masthead__menu-item">
-            <a href="{{ "/files/CV.pdf" | relative_url }}">{% if page.permalink == '/cn/' %}简历{% else %}Resume{% endif %}</a>
+            <a href="{% if page.permalink == '/cn/' %}{{ "/files/resume_zh.pdf" | relative_url }}{% else %}{{ "/files/CV.pdf" | relative_url }}{% endif %}">{% if page.permalink == '/cn/' %}简历{% else %}Resume{% endif %}</a>
           </li>
 
         </ul>
