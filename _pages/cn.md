@@ -72,7 +72,7 @@ author_profile: true
 <div class="research-item">
   <div class="research-header">
     <span><em>2026.06 - 至今</em>, <strong><a href="https://omni-intel.cn/">全域智能（Omni-Intelligence）</a></strong>，深圳</span>
-    <span class="research-supervisor">导师：<a href="https://hedges0-0.github.io/">魏晨 博士</a> &amp; <a href="https://dongyangli.site/">李东</a>洋 先生</span>
+    <span class="research-supervisor">导师：<a href="https://hedges0-0.github.io/">魏晨博士</a> &amp; <a href="https://dongyangli.site/">李东洋先生</a></span>
   </div>
   <details class="research-details">
     <summary>研究实习，关注基于人类偏好对齐的生成模型后训练</summary>
