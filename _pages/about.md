@@ -166,6 +166,23 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </details>
 
+<details class="competition-details">
+<summary><strong>Data Science &amp; Machine Learning</strong></summary>
+<div class="competition-content">
+  <ul>
+    <li><em>2025--Present</em>, <strong>Kaggle</strong>
+      <ul>
+        <li><strong>The 2026 NeuroGolf Championship</strong>, <strong>Bronze Medal</strong>.
+          <ul>
+            <li>Role: <strong>Solo Participant</strong>. Task: <em>Design the smallest neural networks to solve ARC-AGI image transformations</em>.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</details>
+
 # ⚒️ Skill
 - **Programming**: Python, C, Java, MATLAB, LATEX
 - **Frameworks**: PyTorch, NumPy, MNE

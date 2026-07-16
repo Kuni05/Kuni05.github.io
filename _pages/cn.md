@@ -145,6 +145,23 @@ author_profile: true
   </div>
 </details>
 
+<details class="competition-details">
+  <summary><strong>数据科学与机器学习</strong></summary>
+  <div class="competition-content">
+    <ul>
+      <li><em>2025--至今</em>，<strong>Kaggle</strong>
+        <ul>
+          <li><strong>The 2026 NeuroGolf Championship</strong>，<strong>铜牌（Bronze Medal）</strong>
+            <ul>
+              <li>角色：<strong>个人参赛</strong>。赛题描述：<em>设计最小神经网络以解决 ARC-AGI 图像变换任务</em></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</details>
+
 <span class="anchor" id="-skill"></span>
 # ⚒️ 技能
 
