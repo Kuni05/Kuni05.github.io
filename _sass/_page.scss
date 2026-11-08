@@ -68,10 +68,12 @@
   h1[id] { scroll-margin-top: 4rem; }
 
   .publication-note {
-    margin: 0 0 0.35rem;
+    margin-inline-start: 0.45rem;
     color: var(--site-muted);
-    font-size: 0.85em;
+    font-size: 0.85rem;
     font-style: italic;
+    font-weight: normal;
+    white-space: nowrap;
   }
 
   .publication {

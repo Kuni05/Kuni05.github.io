@@ -1,5 +1,7 @@
-<h1 id="-publications">📝 {% if page.permalink == '/cn/' %}论文{% else %}Publications{% endif %}</h1>
-<p class="publication-note"><sup>*</sup> {% if page.permalink == '/cn/' %}共同一作{% else %}Equal Contribution{% endif %}</p>
+<h1 id="-publications" aria-labelledby="publications-label" aria-describedby="publication-note">
+  <span id="publications-label">📝 {% if page.permalink == '/cn/' %}论文{% else %}Publications{% endif %}</span>
+  <small id="publication-note" class="publication-note"><sup>*</sup> {% if page.permalink == '/cn/' %}共同一作{% else %}Equal Contribution{% endif %}</small>
+</h1>
 <article class="publication" aria-labelledby="flatclip">
   <h2 class="publication__title" id="flatclip"><a href="https://openreview.net/forum?id=W9QQrE5T3h">FlatClip: Reusing Image Foundation Models for fMRI Representation Learning via Cortical Flatmaps</a></h2>
   <div class="publication__byline">
