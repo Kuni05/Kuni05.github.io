@@ -9,7 +9,7 @@ author_profile: true
 
 你好！我是南方科技大学工学院自动化专业的大三本科生。我关注大脑如何编码信息，以及如何利用脑信号构建脑机接口。
 
-我在南方科技大学神经计算与控制实验室（NCC Lab）跟随[刘泉影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)副教授研究神经编码与解码，也在[全域智能](https://omni-intel.cn/)担任研究实习生，研究如何在后训练阶段让生成模型更符合人类偏好。
+我在南方科技大学神经计算与控制实验室（NCC Lab）跟随[刘泉影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)副教授研究神经编码与解码。
 
 <span class="anchor" id="-news"></span>
 # 🔥 新闻

@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I'm a third-year Automation student in the College of Engineering at Southern University of Science and Technology (SUSTech). I'm interested in how brain signals encode information and how we can use them to build brain-computer interfaces.
 
-I study neural encoding and decoding at NCC Lab with Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao). I'm also a research intern at [Omni-Intelligence](https://omni-intel.cn/), where I work on aligning generative models with human preferences during post-training.
+I study neural encoding and decoding at NCC Lab with Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao).
 
 
 {% comment %}
