@@ -1,6 +1,13 @@
 <h1 id="-publications">📝 {% if page.permalink == '/cn/' %}论文{% else %}Publications{% endif %}</h1>
-<p>
-  <strong><a href="https://openreview.net/forum?id=W9QQrE5T3h">FlatClip: Reusing Image Foundation Models for fMRI Representation Learning via Cortical Flatmaps</a></strong><br>
-  Mo Wang<sup>*</sup>, Wenhao Ye<sup>*</sup>, Zihan Ning, <strong>Jiayu Zuo</strong>, Junfeng Xia, Hongkai Wen, Quanying Liu<br>
-  <a href="https://neurips.cc/virtual/2026/poster/152015">NeurIPS 2026</a> · {% if page.permalink == '/cn/' %}海报展示 <small>（* 共同第一作者）</small>{% else %}Poster <small>(* equal contribution)</small>{% endif %}
-</p>
+<p class="publication-note"><sup>*</sup> {% if page.permalink == '/cn/' %}共同一作{% else %}Equal Contribution{% endif %}</p>
+<article class="publication" aria-labelledby="flatclip">
+  <h2 class="publication__title" id="flatclip"><a href="https://openreview.net/forum?id=W9QQrE5T3h">FlatClip: Reusing Image Foundation Models for fMRI Representation Learning via Cortical Flatmaps</a></h2>
+  <div class="publication__byline">
+    <span class="publication__authors">
+      <abbr title="Mo Wang">M. Wang</abbr><sup>*</sup>, <abbr title="Wenhao Ye">W. Ye</abbr><sup>*</sup>,
+      <abbr title="Zihan Ning">Z. Ning</abbr>, <strong><abbr title="Jiayu Zuo">J. Zuo</abbr></strong>,
+      <abbr title="Junfeng Xia">J. Xia</abbr>, <abbr title="Hongkai Wen">H. Wen</abbr>, &amp;&nbsp;<abbr title="Quanying Liu">Q. Liu</abbr>
+    </span>
+    <a class="publication__venue" href="https://neurips.cc/virtual/2026/poster/152015">NeurIPS 2026{% if page.permalink == '/cn/' %}，海报展示{% else %}, Poster{% endif %}</a>
+  </div>
+</article>
