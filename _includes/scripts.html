@@ -1,4 +1,15 @@
 <script src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+<script>
+  jQuery(function ($) {
+    var nav = $('#site-nav');
+    nav.find('a[href*="#"]').smoothScroll('options', {
+      beforeScroll: function (options) {
+        nav.children('button.close').trigger('click');
+        options.offset = -nav.closest('.masthead').outerHeight();
+      }
+    });
+  });
+</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

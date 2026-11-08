@@ -8,13 +8,14 @@
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/cn/#about-me">主页</a></li>
             <li class="masthead__menu-item"><a href="/cn/#about-me">关于我</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-news">新闻</a></li>
+            <li class="masthead__menu-item"><a href="/cn/#-publications" target="_self">论文</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-honors-and-awards">荣誉与奖励</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-educations">教育经历</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-research-experience">科研经历</a></li>
           {% else %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
             {% for link in site.data.navigation.main %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
             {% endfor %}
           {% endif %}
 
