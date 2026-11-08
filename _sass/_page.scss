@@ -66,6 +66,29 @@
     border-bottom: 1px solid $border-color;
   }
 
+  .section-details {
+    scroll-margin-top: 4rem;
+
+    summary { cursor: pointer; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary h1 {
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+    }
+    summary h1::before {
+      content: "";
+      position: static;
+      flex: none;
+      width: 0;
+      height: 0;
+      margin: 0;
+      border-block: 0.21em solid transparent;
+      border-left: 0.32em solid var(--site-marker);
+    }
+    &[open] summary h1::before { transform: rotate(90deg); }
+  }
+
   p, li, dl {
     font-size: 1em;
   }

@@ -7,9 +7,9 @@ author_profile: true
 
 <span class="anchor" id="about-me"></span>
 
-你好！我是南方科技大学工学院大二本科生，计划主修电子与电气工程/生物医学工程。我对神经科学与脑机接口方向有浓厚兴趣，希望探索大脑的奥秘，并发展创新性的脑机接口技术。
+你好！我是南方科技大学工学院自动化专业的大三本科生。我关注大脑如何编码信息，以及如何利用脑信号构建脑机接口。
 
-目前，我在南方科技大学神经计算与控制实验室（NCC Lab）跟随副教授 [刘泉影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao) 开展科研工作。
+我在南方科技大学神经计算与控制实验室（NCC Lab）跟随[刘泉影](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao)副教授研究神经编码与解码，也在[全域智能](https://omni-intel.cn/)担任研究实习生，研究如何在后训练阶段让生成模型更符合人类偏好。
 
 <span class="anchor" id="-news"></span>
 # 🔥 新闻
@@ -58,7 +58,7 @@ author_profile: true
 <span class="anchor" id="-educations"></span>
 # 📖 教育经历
 
-- *2024.08 - 至今*, 本科，工学院，[南方科技大学](https://sustech.edu.cn/)，深圳
+- *2024.08 - 至今*，自动化专业本科在读，工学院，[南方科技大学](https://sustech.edu.cn/)，深圳
 - *2021.09 - 2024.06*, 高中，[江西师范大学附属中学](http://www.jxsdfz.com/)，南昌
 
 <div class="education-logos">
@@ -149,7 +149,7 @@ author_profile: true
   <summary><strong>数据科学与机器学习</strong></summary>
   <div class="competition-content">
     <ul>
-      <li><em>2026.07.16</em>，<strong>铜牌（Bronze Medal）</strong>，<a href="https://www.kaggle.com/competitions/neurogolf-2026"><strong>The 2026 NeuroGolf Championship</strong></a>，Kaggle
+      <li><em>2026.07.16</em>，<strong>铜牌</strong>（排名 193/3,061），<a href="https://www.kaggle.com/competitions/neurogolf-2026"><strong>The 2026 NeuroGolf Championship</strong></a>，Kaggle
         <ul>
           <li>角色：<strong>个人参赛</strong>。赛题描述：<em>设计最小神经网络以解决 ARC-AGI 图像变换任务</em></li>
         </ul>
@@ -158,17 +158,21 @@ author_profile: true
   </div>
 </details>
 
-<span class="anchor" id="-skill"></span>
-# ⚒️ 技能
+<details class="section-details" id="-skill">
+  <summary><h1>⚒️ 技能</h1></summary>
+  <ul>
+    <li><strong>编程语言</strong>：Python, C, Java, MATLAB, LaTeX</li>
+    <li><strong>框架与库</strong>：PyTorch, NumPy, MNE</li>
+    <li><strong>工具</strong>：Git, Docker, Jupyter</li>
+    <li><strong>语言</strong>：中文（母语），英语（流利，CET-4）</li>
+  </ul>
+</details>
 
-- **编程语言**：Python, C, Java, MATLAB, LaTeX
-- **框架与库**：PyTorch, NumPy, MNE
-- **工具**：Git, Docker, Jupyter
-- **语言**：中文（母语），英语（流利，CET-4）
-
-<span class="anchor" id="-social-work--services"></span>
-# 🤝 社会工作与服务
-
-- **南方科技大学红十字青年分会**：深圳市红十字会认证救护员；所在分会于 2025 年获中国红十字会“全国红十字模范单位”称号
-- **心理健康急救员（MHFAider）**：完成香港心理卫生会授权的 MHFA International 标准课程
-- **南方科技大学致诚书院优秀宿舍长**
+<details class="section-details" id="-social-work--services">
+  <summary><h1>🤝 社会工作与服务</h1></summary>
+  <ul>
+    <li><strong>南方科技大学红十字青年分会</strong>：深圳市红十字会认证救护员；所在分会于 2025 年获中国红十字会“全国红十字模范单位”称号</li>
+    <li><strong>心理健康急救员（MHFAider）</strong>：完成香港心理卫生会授权的 MHFA International 标准课程</li>
+    <li><strong>南方科技大学致诚书院优秀宿舍长</strong></li>
+  </ul>
+</details>

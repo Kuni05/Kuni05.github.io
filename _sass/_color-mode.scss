@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+  --site-bg: #fff;
+  --site-surface: #fff;
+  --site-text: #494e52;
+  --site-heading: #333;
+  --site-detail: #555;
+  --site-muted: #646b70;
+  --site-link: #224b8d;
+  --site-link-hover: #173661;
+  --site-marker: #868d91;
+  --site-line: #e6e8e9;
+  --site-hover: #eef1f4;
+  --site-github: #171516;
+  --site-linkedin: #007bb6;
+  --site-logo-matte: transparent;
+}
+
+@mixin dark-palette {
+  color-scheme: dark;
+  --site-bg: #191b1e;
+  --site-surface: #222528;
+  --site-text: #dedfdd;
+  --site-heading: #f3f1ed;
+  --site-detail: #cad0d1;
+  --site-muted: #abb2b6;
+  --site-link: #94c3ff;
+  --site-link-hover: #c9e0ff;
+  --site-marker: #929b9e;
+  --site-line: #404548;
+  --site-hover: #32383c;
+  --site-github: #e0e4e8;
+  --site-linkedin: #78c7ef;
+  --site-logo-matte: #fff;
+}
+
+@media screen {
+  :root[data-theme="dark"] { @include dark-palette; }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) { @include dark-palette; }
+}
+
+html, body, .masthead, .greedy-nav { background-color: var(--site-bg); }
+body { color: var(--site-text); }
+.page__content a { color: var(--site-link); }
+.page__content a:hover { color: var(--site-link-hover); }
+.greedy-nav a { color: var(--site-muted); }
+.greedy-nav a:hover { color: var(--site-heading); }
+.greedy-nav .hidden-links {
+  background-color: var(--site-surface);
+  border-color: var(--site-line);
+
+  &:before { border-color: var(--site-line) transparent; }
+  &:after { border-color: var(--site-surface) transparent; }
+  li { border-color: var(--site-line); }
+  a:hover { color: var(--site-heading); background-color: var(--site-hover); }
+}
+.masthead, .page__content h1, .author__avatar img { border-color: var(--site-line); }
+.author__urls { background-color: var(--site-bg); border-color: var(--site-line); }
+.social-icons .fa { color: var(--site-text); }
+.social-icons .fa-github { color: var(--site-github); }
+.social-icons .fa-linkedin { color: var(--site-linkedin); }
+.author__urls details p { color: var(--site-muted); }
+
+// Keep the original academic marks legible without resizing or inverting them.
+.education-logo--sustech {
+  background: var(--site-logo-matte);
+  box-shadow: 0 0 0 4px var(--site-logo-matte);
+  border-radius: 2px;
+}
+.education-logo--jxsdfz { border-radius: 50%; }
+
+.js .theme-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--site-muted);
+  font-size: 1rem;
+
+  // Reserve space before the overflow navigation measures the links.
+  &[hidden] { visibility: hidden; }
+  &:hover { background: var(--site-hover); color: var(--site-heading); }
+}
+
+.masthead :focus-visible, summary:focus-visible {
+  outline: 2px solid var(--site-link);
+  outline-offset: 2px;
+}

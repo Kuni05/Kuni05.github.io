@@ -2,13 +2,12 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="{% if page.permalink == '/cn/' %}更多导航链接{% else %}More navigation links{% endif %}"><span class="navicon" aria-hidden="true"></span></button>
         <ul class="visible-links">
           {% if page.permalink == '/cn/' %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/cn/#about-me">主页</a></li>
             <li class="masthead__menu-item"><a href="/cn/#about-me">关于我</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-news">新闻</a></li>
-            <li class="masthead__menu-item"><a href="/cn/#-publications">论文</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-honors-and-awards">荣誉与奖励</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-educations">教育经历</a></li>
             <li class="masthead__menu-item"><a href="/cn/#-research-experience">科研经历</a></li>
@@ -33,17 +32,21 @@
           </li>
 
         </ul>
-        <div class="masthead__meta">
-          {% if page.permalink == '/cn/' %}
-            <a href="/">英</a><span class="masthead__meta-separator">/</span><a class="is-current" href="/cn/">中</a>
-          {% else %}
-            <a class="is-current" href="/">EN</a><span class="masthead__meta-separator">/</span><a href="/cn/">CN</a>
-          {% endif %}
-          <span class="masthead__meta-divider">|</span>
-          <span class="masthead__updated">{% if page.permalink == '/cn/' %}更新：{% else %}Updated: {% endif %}{{ site.time | date: "%Y-%m-%d" }}</span>
-        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="masthead__meta">
+        <button id="theme-toggle" class="theme-toggle" type="button" hidden
+          aria-label="{% if page.permalink == '/cn/' %}深色模式{% else %}Dark mode{% endif %}" aria-pressed="false">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+        {% if page.permalink == '/cn/' %}
+          <a href="{{ '/' | relative_url }}" hreflang="en" target="_self">英</a><span class="masthead__meta-separator">/</span><a class="is-current" href="{{ '/cn/' | relative_url }}" hreflang="zh-CN" aria-current="page" target="_self">中</a>
+        {% else %}
+          <a class="is-current" href="{{ '/' | relative_url }}" hreflang="en" aria-current="page" target="_self">EN</a><span class="masthead__meta-separator">/</span><a href="{{ '/cn/' | relative_url }}" hreflang="zh-CN" target="_self">CN</a>
+        {% endif %}
+        <span class="masthead__meta-divider">|</span>
+        <span class="masthead__updated">{% if page.permalink == '/cn/' %}更新：{% else %}Updated: {% endif %}{{ site.time | date: "%Y-%m-%d" }}</span>
+      </div>
     </div>
   </div>
 </div>

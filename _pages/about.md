@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I'm a sophomore undergraduate student in Engineering at Southern University of Science and Technology（SUSTech）, intending to major in EE/BME. Strong interests in neuroscience and BCI, with with goals to explore the mysteries of the brain and develop innovative brain-computer interface technologies. 
+Hi! I'm a third-year Automation student in the College of Engineering at Southern University of Science and Technology (SUSTech). I'm interested in how brain signals encode information and how we can use them to build brain-computer interfaces.
 
-Currently conducting research at NCC Lab under the supervision of Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao).
+I study neural encoding and decoding at NCC Lab with Associate Professor [Quanying Liu](https://scholar.google.com/citations?user=UpP9hJ8AAAAJ&hl=zh-CN&oi=ao). I'm also a research intern at [Omni-Intelligence](https://omni-intel.cn/), where I work on aligning generative models with human preferences during post-training.
 
 
 {% comment %}
@@ -79,7 +79,7 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 
 # 📖 Educations
-- *2024.08 - Present*, Undergraduate, College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
+- *2024.08 - Present*, BEng in Automation (in progress), College of Engineering, [Southern University of Science and Technology](https://sustech.edu.cn/), Shenzhen
 - *2021.09 - 2024.06*, High School Diploma, [Attached Middle School to Jiangxi Normal University](http://www.jxsdfz.com/), Nanchang
 
 <div class="education-logos">
@@ -170,7 +170,7 @@ My research interest includes neural machine translation and computer vision. I 
 <summary><strong>Data Science &amp; Machine Learning</strong></summary>
 <div class="competition-content">
   <ul>
-    <li><em>2026.07.16</em>, <strong>Bronze Medal</strong>, <a href="https://www.kaggle.com/competitions/neurogolf-2026"><strong>The 2026 NeuroGolf Championship</strong></a>, Kaggle.
+    <li><em>2026.07.16</em>, <strong>Bronze Medal</strong> (193rd of 3,061), <a href="https://www.kaggle.com/competitions/neurogolf-2026"><strong>The 2026 NeuroGolf Championship</strong></a>, Kaggle.
       <ul>
         <li>Role: <strong>Solo Participant</strong>. Task: <em>Design the smallest neural networks to solve ARC-AGI image transformations</em>.</li>
       </ul>
@@ -179,14 +179,21 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </details>
 
-# ⚒️ Skill
-- **Programming**: Python, C, Java, MATLAB, LATEX
-- **Frameworks**: PyTorch, NumPy, MNE
-- **Tools**: Git, Docker, Jupyter
-- **Languages**: Chinese (Native), English (Fluent, CET-4)
+<details class="section-details" id="-skill">
+  <summary><h1>⚒️ Skill</h1></summary>
+  <ul>
+    <li><strong>Programming</strong>: Python, C, Java, MATLAB, LaTeX</li>
+    <li><strong>Frameworks</strong>: PyTorch, NumPy, MNE</li>
+    <li><strong>Tools</strong>: Git, Docker, Jupyter</li>
+    <li><strong>Languages</strong>: Chinese (Native), English (Fluent, CET-4)</li>
+  </ul>
+</details>
 
-
-# 🤝 Social Work & Services
-- **Southern University of Science and Technology Red Cross Youth Chapter**: Certified First Aider by Shenzhen Red Cross Society. The chapter was recognized as a *National Red Cross Model Unit* by the Red Cross Society of China (2025).
-- **Mental Health First Aider (MHFAider)**: Standard Course Certificate of Completion issued by The Mental Health Association of Hong Kong (authorized by MHFA International).
-- **Excellent Dormitory Manager** of Southern University of Science and Technology, Zhicheng College.
+<details class="section-details" id="-social-work--services">
+  <summary><h1>🤝 Social Work &amp; Services</h1></summary>
+  <ul>
+    <li><strong>Southern University of Science and Technology Red Cross Youth Chapter</strong>: Certified First Aider by Shenzhen Red Cross Society. The chapter was recognized as a <em>National Red Cross Model Unit</em> by the Red Cross Society of China (2025).</li>
+    <li><strong>Mental Health First Aider (MHFAider)</strong>: Standard Course Certificate of Completion issued by The Mental Health Association of Hong Kong (authorized by MHFA International).</li>
+    <li><strong>Excellent Dormitory Manager</strong> of Southern University of Science and Technology, Zhicheng College.</li>
+  </ul>
+</details>
