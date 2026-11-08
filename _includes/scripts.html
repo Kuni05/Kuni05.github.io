@@ -4,7 +4,6 @@
     var nav = $('#site-nav');
     nav.find('a[href*="#"]').smoothScroll('options', {
       beforeScroll: function (options) {
-        nav.children('button.close').trigger('click');
         options.offset = -nav.closest('.masthead').outerHeight();
       }
     });

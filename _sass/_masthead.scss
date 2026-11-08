@@ -19,9 +19,7 @@
     padding: .5em;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+    max-width: $x-large;
 
     nav {
       z-index: 10;
@@ -60,7 +58,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 0.5em;
     font-weight: 700;
   }
 }
@@ -72,9 +70,8 @@
   min-height: 2.5rem;
 }
 
-.greedy-nav .navicon {
-  display: block;
-}
+.no-js .masthead__menu .greedy-nav { flex-basis: auto; }
+.no-js .greedy-nav .visible-links { display: flex; flex-wrap: wrap; }
 
 .masthead__meta {
   display: flex;
@@ -113,14 +110,16 @@
   margin: 0 0.25rem;
 }
 
-@include breakpoint(max-width $medium) {
-  .masthead__menu {
-    column-gap: 0.35rem;
-  }
-
+@include breakpoint(max-width $x-large) {
   .masthead__meta {
     font-size: 0.875rem;
     gap: 0.25rem;
+  }
+}
+
+@include breakpoint(max-width $medium) {
+  .masthead__menu {
+    column-gap: 0.35rem;
   }
 
   .greedy-nav .hidden-links {

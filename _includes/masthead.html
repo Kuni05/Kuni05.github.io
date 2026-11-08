@@ -2,7 +2,8 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="{% if page.permalink == '/cn/' %}更多导航链接{% else %}More navigation links{% endif %}"><span class="navicon" aria-hidden="true"></span></button>
+        {% if page.permalink == '/cn/' %}{% assign more_label = '更多导航链接' %}{% else %}{% assign more_label = 'More navigation links' %}{% endif %}
+        <button class="hidden" type="button" aria-label="{{ more_label }}" title="{{ more_label }}" aria-controls="nav-overflow" aria-expanded="false"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></button>
         <ul class="visible-links">
           {% if page.permalink == '/cn/' %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/cn/#about-me">主页</a></li>
@@ -33,7 +34,7 @@
           </li>
 
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden" id="nav-overflow"></ul>
       </nav>
       <div class="masthead__meta">
         <button id="theme-toggle" class="theme-toggle" type="button" hidden

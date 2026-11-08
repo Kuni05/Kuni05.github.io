@@ -1,72 +1,50 @@
-/*
-* Greedy Navigation
-*
-* http://codepen.io/lukejacksonn/pen/PwmwWV
-*
-*/
+(function () {
+  var nav = document.getElementById('site-nav');
+  if (!nav) return;
 
-var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
-var $vlinks = $('#site-nav .visible-links');
-var $hlinks = $('#site-nav .hidden-links');
+  var button = nav.querySelector('button');
+  var visible = nav.querySelector('.visible-links');
+  var overflow = nav.querySelector('.hidden-links');
 
-var breaks = [];
+  function setOpen(open) {
+    button.setAttribute('aria-expanded', String(open));
+    overflow.classList.toggle('hidden', !open);
+  }
 
-function updateNav() {
-
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-
-  // The visible list is overflowing the nav
-  if($vlinks.width() > availableSpace) {
-
-    // Record the width of the list
-    breaks.push($vlinks.width());
-
-    // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
-
-    // Show the dropdown btn
-    if($btn.hasClass('hidden')) {
-      $btn.removeClass('hidden');
+  function fitLinks() {
+    // First try the full row: a menu should not create its own overflow.
+    while (overflow.firstElementChild) visible.appendChild(overflow.firstElementChild);
+    var available = nav.getBoundingClientRect().width;
+    var fits = visible.getBoundingClientRect().width <= available;
+    button.classList.toggle('hidden', fits);
+    if (fits) {
+      setOpen(false);
+      return;
     }
 
-  // The visible list is not overflowing
-  } else {
-
-    // There is space for another item in the nav
-    if(availableSpace > breaks[breaks.length-1]) {
-
-      // Move the item to the visible list
-      $hlinks.children().first().appendTo($vlinks);
-      breaks.pop();
-    }
-
-    // Hide the dropdown btn if hidden list is empty
-    if(breaks.length < 1) {
-      $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
+    available -= button.getBoundingClientRect().width + 4;
+    while (visible.lastElementChild && visible.getBoundingClientRect().width > available) {
+      overflow.insertBefore(visible.lastElementChild, overflow.firstChild);
     }
   }
 
-  // Keep counter updated
-  $btn.attr("count", breaks.length);
+  button.addEventListener('click', function () {
+    setOpen(button.getAttribute('aria-expanded') !== 'true');
+  });
+  overflow.addEventListener('click', function (event) {
+    if (event.target.closest('a')) setOpen(false);
+  });
+  document.addEventListener('click', function (event) {
+    if (!nav.contains(event.target) && button.getAttribute('aria-expanded') === 'true') setOpen(false);
+  });
+  nav.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+      setOpen(false);
+      button.focus();
+    }
+  });
 
-  // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
-    updateNav();
-  }
-
-}
-
-// Window listeners
-
-$(window).resize(function() {
-  updateNav();
-});
-
-$btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
-});
-
-updateNav();
+  window.addEventListener('resize', fitLinks);
+  if (document.fonts) document.fonts.ready.then(fitLinks);
+  fitLinks();
+}());

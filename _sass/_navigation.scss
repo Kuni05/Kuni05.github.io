@@ -179,10 +179,11 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 clamp(0.25rem, calc(2vw - 1.1rem), 0.9rem);
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    transition-property: color, background-color;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -191,14 +192,19 @@
 
   button {
     position: absolute;
-    height: 100%;
+    top: 50%;
     right: 0;
-    padding: 0 0.5rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
     border: 0;
-    outline: none;
-    background-color: $primary-color;
-    color: #fff;
+    background: transparent;
+    color: var(--site-muted);
+    line-height: 1;
     cursor: pointer;
+
+    &:hover, &[aria-expanded="true"] { color: var(--site-link); }
   }
 
   .visible-links {
